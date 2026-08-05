@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mini-Site</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="container mt-3">
+        <h1>Meu Mini-Site</h1>
+    </header>
+
+    <nav class="container mb-4">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Todo o conteúdo principal da página foi agrupado dentro da tag <main> -->
+    <main class="container">
+        
+        <section class="mb-4">
+            <h2>Conteúdo Principal</h2>
+            <p>GAROPABA 05 03 2026.</p>
+        </section>
+
+        <!-- O Grid do Bootstrap foi movido para cá -->
+        <section class="row g-3 mb-4">
+            <!-- Adicionei bordas e padding (border p-2) apenas para os itens ficarem visíveis -->
+            <div class="col-12 col-md-6 col-lg-4 border p-2 bg-light">Item 1</div>
+            <div class="col-12 col-md-6 col-lg-8 border p-2 bg-light">Item 2</div>
+        </section>
+
+        <!-- O campo de E-mail foi organizado em sua própria seção -->
+        <section class="mb-5">
+            <label class="form-label">E-mail</label>
+            <input type="email" class="form-control" placeholder="ana@exemplo.com">
+        </section>
+
+    </main>
+
+    <footer class="container mt-5">
+        <p>PIETRO CAETANO FLEITH</p>
+    </footer>
+
+    <!-- Scripts no final do <body> para não travar o carregamento da página -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
